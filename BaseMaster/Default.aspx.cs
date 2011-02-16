@@ -9,7 +9,6 @@ namespace BaseMaster {
     public partial class _Default : System.Web.UI.Page {
 
         protected void Page_Load(object sender, EventArgs e) {
-            BaseResult.Text = "50";
         }
 
         //TODO: Calculate answer without having to click the submit button
@@ -18,7 +17,9 @@ namespace BaseMaster {
         }
 
         protected void Submit_Click(object sender, EventArgs e) {
-            BaseResult.Text = "200";
+            int userNumber = Convert.ToInt32(UserNumber.Text);
+            string hexValue = userNumber.ToString("X");
+            BaseResult.Text = hexValue;
         }
     }
 }
