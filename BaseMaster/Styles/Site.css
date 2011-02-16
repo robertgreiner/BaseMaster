@@ -5,9 +5,11 @@ body
 {
     font-size: .80em;
     font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
-    margin: 0px;
+    margin: 10px;
     padding: 0px;
     color: #333333;
+    padding: 10px;
+    
 }
 
 a:link, a:visited

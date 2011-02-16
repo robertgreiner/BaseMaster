@@ -5,6 +5,7 @@
 <head runat="server">
     <title>Base Master | Online Base Conversion Utility</title>
     <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <script src="Scripts/jquery-1.4.1.min.js" type="text/javascript"></script>
     <asp:ContentPlaceHolder ID="HeadContent" runat="server">
     </asp:ContentPlaceHolder>
 </head>
