@@ -16,10 +16,10 @@ namespace BaseMaster {
 
         }
 
+        //TODO: Add validation
         protected void Submit_Click(object sender, EventArgs e) {
-            int userNumber = Convert.ToInt32(UserNumber.Text);
-            string hexValue = userNumber.ToString("X");
-            BaseResult.Text = hexValue;
+            string result = BaseUtility.Convert(UserNumber.Text.ToString(), Convert.ToInt32(ConvertFromList.SelectedValue), Convert.ToInt32(ConvertToList.SelectedValue));
+            BaseResult.Text = result;
         }
     }
 }

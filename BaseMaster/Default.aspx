@@ -7,17 +7,17 @@
     <form id="BaseForm" runat="server">
         <asp:TextBox runat="server" ID="UserNumber"></asp:TextBox>
         <asp:DropDownList ID="ConvertFromList" runat="server">
-            <asp:ListItem Enabled="false" Value="2" >2 - Binary</asp:ListItem>
-            <asp:ListItem Enabled="false" Value="8" >8 - Octal</asp:ListItem>
-            <asp:ListItem Value="10" >10 - Decimal</asp:ListItem>
-            <asp:ListItem Enabled="false" Value="16" >16 - Hexidecimal</asp:ListItem>
+            <asp:ListItem Value="2" >2 - Binary</asp:ListItem>
+            <asp:ListItem Value="8" >8 - Octal</asp:ListItem>
+            <asp:ListItem Selected="True" Value="10" >10 - Decimal</asp:ListItem>
+            <asp:ListItem Value="16" >16 - Hexidecimal</asp:ListItem>
         </asp:DropDownList>
         to
         <asp:DropDownList ID="ConvertToList" runat="server" onselectedindexchanged="ConvertToList_SelectedIndexChanged">
-            <asp:ListItem Enabled="false" Value="0" >Select</asp:ListItem>
-            <asp:ListItem Enabled="false" Value="2" >2 - Binary</asp:ListItem>
-            <asp:ListItem Enabled="false" Value="8" >8 - Octal</asp:ListItem>
-            <asp:ListItem Enabled="false" Value="10" >10 - Decimal</asp:ListItem>
+            <asp:ListItem Value="0" >Select</asp:ListItem>
+            <asp:ListItem Value="2" >2 - Binary</asp:ListItem>
+            <asp:ListItem Value="8" >8 - Octal</asp:ListItem>
+            <asp:ListItem Value="10" >10 - Decimal</asp:ListItem>
             <asp:ListItem Value="16" >16 - Hexidecimal</asp:ListItem>
         </asp:DropDownList>
         =
