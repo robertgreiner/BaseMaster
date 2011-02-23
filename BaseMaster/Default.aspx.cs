@@ -11,11 +11,6 @@ namespace BaseMaster {
         protected void Page_Load(object sender, EventArgs e) {
         }
 
-        //TODO: Calculate answer without having to click the submit button
-        protected void ConvertToList_SelectedIndexChanged(object sender, EventArgs e) {
-
-        }
-
         //TODO: Add validation
         protected void Submit_Click(object sender, EventArgs e) {
             string result = BaseUtility.Convert(UserNumber.Text.ToString(), Convert.ToInt32(ConvertFromList.SelectedValue), Convert.ToInt32(ConvertToList.SelectedValue));

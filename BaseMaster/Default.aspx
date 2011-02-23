@@ -13,7 +13,7 @@
             <asp:ListItem Value="16" >16 - Hexidecimal</asp:ListItem>
         </asp:DropDownList>
         to
-        <asp:DropDownList ID="ConvertToList" runat="server" onselectedindexchanged="ConvertToList_SelectedIndexChanged">
+        <asp:DropDownList ID="ConvertToList" runat="server">
             <asp:ListItem Value="0" >Select</asp:ListItem>
             <asp:ListItem Value="2" >2 - Binary</asp:ListItem>
             <asp:ListItem Value="8" >8 - Octal</asp:ListItem>
