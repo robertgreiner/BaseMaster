@@ -30,13 +30,14 @@
     
         <div id="wrapper" class="true">
             <h1 class="sitetitle"><img src="Images/logo.png" alt="Logo File" /></h1>
-
             <div style="clear: both; margin-top: 100px;"></div>
-            
-            
             <asp:ContentPlaceHolder ID="MainContent" runat="server" />
-           
         </div><!-- end wrapper -->
     
+        <div id="footer">
+            Created by <a href="http://creatingcode.com">Robert Greiner</a>.<br />
+            Source code available at <a href="http://github.com/robertgreiner/BaseMaster">Github</a>. 
+        </div>
+
     </body>
 </html>
