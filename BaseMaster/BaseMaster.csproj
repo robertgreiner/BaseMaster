@@ -50,13 +50,49 @@
     <Reference Include="System.Web.ApplicationServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="About.aspx" />
-    <Content Include="Styles\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
-    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
-    <Content Include="Scripts\jquery-1.4.1.js" />
-    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Images\bg_black.jpg" />
+    <Content Include="Images\bg_blue.jpg" />
+    <Content Include="Images\bg_green.jpg" />
+    <Content Include="Images\bg_pink.jpg" />
+    <Content Include="Images\bg_purple.jpg" />
+    <Content Include="Images\bg_red.jpg" />
+    <Content Include="Images\bg_seagreen.jpg" />
+    <Content Include="Images\bg_yellow.jpg" />
+    <Content Include="Images\cd_desc.gif" />
+    <Content Include="Images\cd_desc.png" />
+    <Content Include="Images\digits.gif" />
+    <Content Include="Images\digits.png" />
+    <Content Include="Images\error.png" />
+    <Content Include="Images\fin.png" />
+    <Content Include="Images\heat.png" />
+    <Content Include="Images\ico_email.png" />
+    <Content Include="Images\ico_facebook.png" />
+    <Content Include="Images\ico_rss.png" />
+    <Content Include="Images\ico_twitter.png" />
+    <Content Include="Images\input_bg.png" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\progbar_bg.png" />
+    <Content Include="Images\prog_desc.gif" />
+    <Content Include="Images\prog_desc.png" />
+    <Content Include="Images\prog_leg.gif" />
+    <Content Include="Images\prog_leg.png" />
+    <Content Include="Images\signup_desc.gif" />
+    <Content Include="Images\signup_desc.png" />
+    <Content Include="Images\social_desc.png" />
+    <Content Include="Images\submit.png" />
+    <Content Include="Images\success.png" />
+    <Content Include="Images\twitter_bubble.png" />
+    <Content Include="Images\twitter_desc.png" />
+    <Content Include="Scripts\IE7.js" />
+    <Content Include="Scripts\IE8.js" />
+    <Content Include="Scripts\IE9.js" />
+    <Content Include="Styles\chrome.css" />
+    <Content Include="Styles\ie7.css" />
+    <Content Include="Styles\ie8.css" />
+    <Content Include="Styles\safari.css" />
+    <Content Include="Styles\Site.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -66,13 +102,6 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="About.aspx.cs">
-      <DependentUpon>About.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="About.aspx.designer.cs">
-      <DependentUpon>About.aspx</DependentUpon>
-    </Compile>
     <Compile Include="BaseUtility.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
