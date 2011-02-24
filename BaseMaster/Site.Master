@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="BaseMaster.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title>Base Master | Online Base Conversion Utility</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="~/Styles/Site.css" type="text/css" />
+    <!-- CHROME -->
+    <link href="~/Styles/chrome.css" rel="stylesheet" type="text/css" />
+    <!-- SAFARI -->
+    <link href="~/Styles/safari.css" rel="stylesheet" type="text/css" />
+
+    <!--[if lt IE 7]>
+        <link href="~/Styles/ie7.css" rel="stylesheet" type="text/css" />
+        <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE7.js"></script>
+    <![endif]-->
+    <!--[if IE 8]>
+        <link href="~/Styles/ie8.css" rel="stylesheet" type="text/css" />
+        <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
+        <![endif]-->
+    <!--[if lt IE 9]>
+        <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js">IE7_PNG_SUFFIX=".png";</script>
+    <![endif]-->
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+    
+    <body class="blue">
+    
+        <div id="wrapper" class="true">
+            <h1 class="sitetitle"><img src="Images/logo.png" alt="Logo File" /></h1>
+
+            <div style="clear: both; margin-top: 100px;"></div>
+            
+            
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+           
+        </div><!-- end wrapper -->
+    
+    </body>
+</html>

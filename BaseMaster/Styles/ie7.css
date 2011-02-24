@@ -1,0 +1,6 @@
+.form_msg { padding: 0; height: 51px; }
+.signup_form {margin: -20px 0 0 0;}
+.twitter-inner { position: absolute; top: 0px; height: 64px; text-align: left;}
+.twitter-inner p { position: relative; font-size: 11px;
+margin-top: expression(this.offsetHeight < this.parentNode.offsetHeight ? parseInt((this.parentNode.offsetHeight - this.offsetHeight) / 2) + "px" : "0");
+}

@@ -1,0 +1,81 @@
+body {background: #124f90 url(../Images/bg_blue.jpg) no-repeat top; font-family: Arial, Helvetica, sans-serif;
+text-align: left; color: #FFF;}
+
+#wrapper {width: 846px; margin: 0 auto;}
+#wrapper.false {width: 794px;}
+
+/* HEADER */
+
+h1.sitetitle {float: left;}
+.brief {float: right; width: 500px;}
+.brief h2 {letter-spacing: -0.7px;}
+.brief p {font-size: 12px;line-height: 18px;}
+
+.twitter {width: 450px; height: 65px; background: url(../Images/twitter_bubble.png) no-repeat left; margin: 30px 0 0 0;}
+.twitter p {font-size: 11px; line-height: 16px; padding: 0 15px 0 85px; margin: 0;}
+.twitter p a {color: #FFF;}
+.twitter_desc {margin: 10px 0 0 0;}
+
+.twitter-outer {height: 64px; position: relative;}
+.twitter-inner {position: absolute; top: 0px; height: 64px; display: table;}
+.twitter-inner p {display: table-cell; vertical-align: middle; text-align: left;}
+
+
+/* BOTTOM RIGHT HAND SIDE - NEWSLETTER AND SOCIAL INTERACTION */
+
+.sideright {float: right; width: 300px;}
+
+.list {
+    width:150px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	background:url(../Images/input_bg.png) repeat-x scroll left top #FFFFFF;
+	border:1px solid #DFDFDF;
+	color:#666666;
+	font-size:20px;
+	margin: 10px 5px 10px 0; 
+}
+
+.number {
+	width:150px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	background:url(../Images/input_bg.png) repeat-x scroll left top #FFFFFF;
+	overflow: hidden;
+	border:1px solid #DFDFDF;
+	color:#666666;
+	font-size:20px;
+	margin: 10px 5px 0 0;
+}
+
+.number:focus {border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;	
+	background:none repeat scroll 0 0 #FFFFFF;
+	border-color:#999999;
+	color:#000000;
+}
+
+.submit {background:url(../Images/submit.png) no-repeat;
+	border: 0;
+	background-position: 0 0;
+	text-indent: -9999px;
+	cursor:pointer;
+	height: 31px;
+	margin-top: 10px;
+	width:70px;
+}
+
+.result 
+{
+    margin-top: 100px;
+    font-size: 30px;
+    
+}
+
+.submit:hover {background:url(../Images/submit.png) no-repeat;	background-position: 0 -31px;}
