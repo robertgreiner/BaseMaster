@@ -1,5 +1,5 @@
 body {background: #124f90 url(../Images/bg_blue.jpg) no-repeat top; font-family: Arial, Helvetica, sans-serif;
-text-align: left; color: #FFF;}
+text-align: left; color: #FFFFFF;}
 
 #wrapper {width: 846px; margin: 0 auto;}
 #wrapper.false {width: 794px;}
@@ -79,3 +79,7 @@ h1.sitetitle {float: left;}
 }
 
 .submit:hover {background:url(../Images/submit.png) no-repeat;	background-position: 0 -31px;}
+
+#footer { width: 300px; margin: 40px auto; text-align: center; font-size: 10px; }
+#footer a { color: #FFFFFF; }
+#footer a:hover { color: #FFFFFF; }
