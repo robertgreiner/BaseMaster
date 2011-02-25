@@ -1,57 +1,45 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="D:\projects\BaseMaster\BaseMaster.Tests\bin\Release\BaseMaster.Tests.dll" total="17" errors="0" failures="0" not-run="0" inconclusive="4" ignored="0" skipped="0" invalid="0" date="2011-02-23" time="17:37:06">
+<test-results name="D:\projects\BaseMaster\BaseMaster.Tests\bin\Release\BaseMaster.Tests.dll" total="21" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2011-02-24" time="19:28:08">
   <environment nunit-version="2.5.9.10348" clr-version="2.0.50727.4952" os-version="Microsoft Windows NT 6.1.7600.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.5.9\bin\net-2.0" machine-name="TESLA" user="Robert" user-domain="TESLA" />
   <culture-info current-culture="en-US" current-uiculture="en-US" />
-  <test-suite type="Assembly" name="D:\projects\BaseMaster\BaseMaster.Tests\bin\Release\BaseMaster.Tests.dll" executed="True" result="Success" success="True" time="0.149" asserts="0">
+  <test-suite type="Assembly" name="D:\projects\BaseMaster\BaseMaster.Tests\bin\Release\BaseMaster.Tests.dll" executed="True" result="Success" success="True" time="0.330" asserts="0">
     <results>
-      <test-suite type="Namespace" name="BaseMaster" executed="True" result="Success" success="True" time="0.130" asserts="0">
+      <test-suite type="Namespace" name="BaseMaster" executed="True" result="Success" success="True" time="0.312" asserts="0">
         <results>
-          <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="0.127" asserts="0">
+          <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="0.309" asserts="0">
             <results>
-              <test-suite type="TestFixture" name="TestConversions" executed="True" result="Success" success="True" time="0.095" asserts="0">
+              <test-suite type="TestFixture" name="TestConversions" executed="True" result="Success" success="True" time="0.093" asserts="0">
                 <results>
-                  <test-case name="BaseMaster.Tests.TestConversions.TestBinToDec" executed="True" result="Success" success="True" time="0.047" asserts="1" />
+                  <test-case name="BaseMaster.Tests.TestConversions.TestBinToDec" executed="True" result="Success" success="True" time="0.048" asserts="1" />
                   <test-case name="BaseMaster.Tests.TestConversions.TestBinToHex" executed="True" result="Success" success="True" time="0.001" asserts="1" />
-                  <test-case name="BaseMaster.Tests.TestConversions.TestBinToOct" executed="True" result="Success" success="True" time="0.001" asserts="1" />
-                  <test-case name="BaseMaster.Tests.TestConversions.TestDecToBin" executed="True" result="Success" success="True" time="0.000" asserts="1" />
-                  <test-case name="BaseMaster.Tests.TestConversions.TestDecToHex" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="BaseMaster.Tests.TestConversions.TestBinToOct" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="BaseMaster.Tests.TestConversions.TestDecToBin" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="BaseMaster.Tests.TestConversions.TestDecToHex" executed="True" result="Success" success="True" time="0.000" asserts="1" />
                   <test-case name="BaseMaster.Tests.TestConversions.TestDecToOct" executed="True" result="Success" success="True" time="0.001" asserts="1" />
-                  <test-case name="BaseMaster.Tests.TestConversions.TestHexToBin" executed="True" result="Success" success="True" time="0.001" asserts="1" />
-                  <test-case name="BaseMaster.Tests.TestConversions.TestHexToDec" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="BaseMaster.Tests.TestConversions.TestHexToBin" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="BaseMaster.Tests.TestConversions.TestHexToDec" executed="True" result="Success" success="True" time="0.000" asserts="1" />
                   <test-case name="BaseMaster.Tests.TestConversions.TestHexToOct" executed="True" result="Success" success="True" time="0.000" asserts="1" />
-                  <test-case name="BaseMaster.Tests.TestConversions.TestOctToBin" executed="True" result="Success" success="True" time="0.001" asserts="1" />
-                  <test-case name="BaseMaster.Tests.TestConversions.TestOctToDec" executed="True" result="Success" success="True" time="0.001" asserts="1" />
-                  <test-case name="BaseMaster.Tests.TestConversions.TestOctToHex" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="BaseMaster.Tests.TestConversions.TestOctToBin" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="BaseMaster.Tests.TestConversions.TestOctToDec" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="BaseMaster.Tests.TestConversions.TestOctToHex" executed="True" result="Success" success="True" time="0.000" asserts="1" />
                 </results>
               </test-suite>
-              <test-suite type="TestFixture" name="TestSpecialCases" executed="True" result="Success" success="True" time="0.004" asserts="0">
+              <test-suite type="TestFixture" name="TestSpecialCases" executed="True" result="Success" success="True" time="0.003" asserts="0">
                 <results>
                   <test-case name="BaseMaster.Tests.TestSpecialCases.TestBadInput" executed="True" result="Success" success="True" time="0.003" asserts="1" />
                 </results>
               </test-suite>
-              <test-suite type="TestFixture" name="TestValidation" executed="True" result="Inconclusive" success="False" time="0.016" asserts="0">
+              <test-suite type="TestFixture" name="TestValidation" executed="True" result="Success" success="True" time="0.201" asserts="0">
                 <results>
-                  <test-case name="BaseMaster.Tests.TestValidation.TestInvalidBin" executed="True" result="Inconclusive" success="False" time="0.006" asserts="0">
-                    <reason>
-                      <message><![CDATA[]]></message>
-                    </reason>
-                  </test-case>
-                  <test-case name="BaseMaster.Tests.TestValidation.TestInvalidDec" executed="True" result="Inconclusive" success="False" time="0.001" asserts="0">
-                    <reason>
-                      <message><![CDATA[]]></message>
-                    </reason>
-                  </test-case>
-                  <test-case name="BaseMaster.Tests.TestValidation.TestInvalidHex" executed="True" result="Inconclusive" success="False" time="0.001" asserts="0">
-                    <reason>
-                      <message><![CDATA[]]></message>
-                    </reason>
-                  </test-case>
-                  <test-case name="BaseMaster.Tests.TestValidation.TestInvalidOct" executed="True" result="Inconclusive" success="False" time="0.001" asserts="0">
-                    <reason>
-                      <message><![CDATA[]]></message>
-                    </reason>
-                  </test-case>
+                  <test-case name="BaseMaster.Tests.TestValidation.TestInvalidBin" executed="True" result="Success" success="True" time="0.177" asserts="1" />
+                  <test-case name="BaseMaster.Tests.TestValidation.TestInvalidDec" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                  <test-case name="BaseMaster.Tests.TestValidation.TestInvalidHex" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="BaseMaster.Tests.TestValidation.TestInvalidOct" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="BaseMaster.Tests.TestValidation.TestValidBin" executed="True" result="Success" success="True" time="0.004" asserts="1" />
+                  <test-case name="BaseMaster.Tests.TestValidation.TestValidDec" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="BaseMaster.Tests.TestValidation.TestValidHex" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="BaseMaster.Tests.TestValidation.TestValidOct" executed="True" result="Success" success="True" time="0.001" asserts="1" />
                 </results>
               </test-suite>
             </results>
