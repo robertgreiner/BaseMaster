@@ -34,7 +34,7 @@
 
         <div style="margin-top: 10px;">
             <% if (Page.IsPostBack) { %>
-                = <asp:Label CssClass="result" ID="BaseResult" runat="server"></asp:Label>
+                <asp:Label CssClass="result" ID="BaseResult" runat="server"></asp:Label>
             <% } %>
         </div>
 

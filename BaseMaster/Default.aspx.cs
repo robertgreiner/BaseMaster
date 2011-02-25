@@ -13,8 +13,12 @@ namespace BaseMaster {
 
         //TODO: Add validation
         protected void Submit_Click(object sender, EventArgs e) {
+            string fromBase = ConvertFromList.SelectedValue;
+            string toBase = ConvertToList.SelectedValue;
             string result = BaseUtility.Convert(UserNumber.Text.ToString(), Convert.ToInt32(ConvertFromList.SelectedValue), Convert.ToInt32(ConvertToList.SelectedValue));
-            BaseResult.Text = result;
+
+            BaseResult.Text = String.Format("{0}<span class=\"subscript\">{1}</span> = {2}<span class=\"subscript\">{3}</span>", UserNumber.Text, fromBase, result, toBase).ToString();
         }
+
     }
 }
