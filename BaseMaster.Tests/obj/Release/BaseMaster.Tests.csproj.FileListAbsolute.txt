@@ -6,3 +6,4 @@ D:\projects\BaseMaster\BaseMaster.Tests\obj\Release\BaseMaster.Tests.pdb
 D:\projects\BaseMaster\BaseMaster.Tests\bin\Release\nunit.framework.xml
 D:\projects\BaseMaster\BaseMaster.Tests\bin\Release\BaseMaster.dll
 D:\projects\BaseMaster\BaseMaster.Tests\bin\Release\BaseMaster.pdb
+D:\projects\BaseMaster\BaseMaster.Tests\bin\Release\nunit.framework.dll
