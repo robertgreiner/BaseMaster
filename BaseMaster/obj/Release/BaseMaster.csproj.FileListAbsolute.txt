@@ -1,5 +1,0 @@
-D:\projects\BaseMaster\BaseMaster\bin\BaseMaster.dll
-D:\projects\BaseMaster\BaseMaster\bin\BaseMaster.pdb
-D:\projects\BaseMaster\BaseMaster\obj\Release\ResolveAssemblyReference.cache
-D:\projects\BaseMaster\BaseMaster\obj\Release\BaseMaster.dll
-D:\projects\BaseMaster\BaseMaster\obj\Release\BaseMaster.pdb
